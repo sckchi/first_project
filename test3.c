@@ -16,7 +16,7 @@ void main()
 		printf("a = %c\n", a[strlen(a)-1-i]);
 		printf("b = %c\n", b[i]);
 	}
-	printf("b = %s\n", b);	
+	printf("b = %s length = %d\n", b, strlen(b));	
 
 
 }
